@@ -1,5 +1,7 @@
 "# core3-sslei-50" 
 
+Demo on YouTube (58 secs): https://youtu.be/midZ9ImSYJc
+
 This submission is for CORE 3 - Extension
 
 - contains a RecyclerView
@@ -10,4 +12,4 @@ This submission is for CORE 3 - Extension
 
 - has an options menu which contains an option to show the saved data of the last item clicked
 
-Spike Report has been submitted.
+Spike Report including answers to specific questions has been submitted.
