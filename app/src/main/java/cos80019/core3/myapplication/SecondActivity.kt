@@ -1,8 +1,10 @@
 package cos80019.core3.myapplication
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+
 
 class SecondActivity : AppCompatActivity() {
 
@@ -25,4 +27,6 @@ class SecondActivity : AppCompatActivity() {
         textview.text = str
 
     }
+
+
 }

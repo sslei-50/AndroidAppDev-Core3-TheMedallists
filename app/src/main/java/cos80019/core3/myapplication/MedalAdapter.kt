@@ -65,13 +65,13 @@ class MedalAdapter(var medallists: List<Medallist>
             }.apply()
         }
 
-        //set an onTouchListener on Country Title
+        //set an onTouchListener on medallist's Title
         holder.itemView.medallistTitle_TV.setOnTouchListener { v, event ->
             val activity = holder.itemView.context as AppCompatActivity
             val bottomFragment = BottomSheetFragment.newInstance()
             val action = event.action
             when (action) {
-                MotionEvent.ACTION_DOWN -> {     //onClick DOWN a bottomSheet will show with Country data
+                MotionEvent.ACTION_DOWN -> {     //onClick DOWN a bottomSheet will show with medallist's data
                     savedData()
                     activity.supportFragmentManager
                         .beginTransaction()
@@ -87,16 +87,12 @@ class MedalAdapter(var medallists: List<Medallist>
                            .remove(frag)
                            .commit()
                    }
-
                 }
-
                 else -> {
                 }
-
             }
             true
         }
-
     }
 
     override fun getItemCount(): Int {
