@@ -1,5 +1,7 @@
 "# core3-sslei-50" 
 
+Demo on YouTube (58 secs): https://youtu.be/midZ9ImSYJc
+
 This submission is for CORE 3 - Extension
 
 - contains a RecyclerView
